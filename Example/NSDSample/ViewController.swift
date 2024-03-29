@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+import NSDSample
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("the factorial = \(SimpleAlgorithms.sharedInstance.factorial(n:3))")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
