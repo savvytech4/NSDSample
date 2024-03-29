@@ -1,0 +1,6 @@
+framework module Pods_NSDSample_Tests {
+  umbrella header "Pods-NSDSample_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "NSDSample",
+  "version": "0.1.0",
+  "summary": "A short description of NSDSample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/savvytech4/NSDSample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "savvytech4": "savvytech4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/savvytech4/NSDSample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NSDSample/Classes/**/*"
+}

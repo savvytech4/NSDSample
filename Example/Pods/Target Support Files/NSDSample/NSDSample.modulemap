@@ -1,0 +1,6 @@
+framework module NSDSample {
+  umbrella header "NSDSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

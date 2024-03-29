@@ -1,0 +1,16 @@
+PODS:
+  - NSDSample (0.1.0)
+
+DEPENDENCIES:
+  - NSDSample (from `../`)
+
+EXTERNAL SOURCES:
+  NSDSample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSDSample: 0060b76bf93812b509ca5d0479ad93c18f2145d7
+
+PODFILE CHECKSUM: 477f3b68d8aeb208fbf1ec85810cbf34c776bcc1
+
+COCOAPODS: 1.11.3
