@@ -1,0 +1,11 @@
+framework module NSxcframework {
+  umbrella header "NSxcframework.h"
+
+  export *
+  module * { export * }
+}
+
+module NSxcframework.Swift {
+    header "NSxcframework-Swift.h"
+    requires objc
+}
