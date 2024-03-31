@@ -27,7 +27,6 @@ TODO: Add long description of the pod here.
   s.author           = { 'savvytech4' => 'savvytech4@gmail.com' }
   s.source           = { :git => 'https://github.com/savvytech4/NSDSample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '12.0'
   s.source_files = 'Source/**/*'
   s.swift_version = '5.0'
