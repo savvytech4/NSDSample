@@ -187,18 +187,10 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		6BDF08582BC3DC3F003E03C2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6BDF08592BC3DC5B003E03C2 /* Localizations.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		ACBF3B71ADC5A416A7966E5F1AB4A93A /* NSDSample */ = {
 			isa = PBXGroup;
 			children = (
-				6BDF08582BC3DC3F003E03C2 /* Resources */,
+				6BDF08592BC3DC5B003E03C2 /* Localizations.bundle */,
 				6B9C57922BB6A462000C6755 /* Source */,
 				457FF84AD6204346221767185EB7BEA1 /* Pod */,
 				C5738DB974B3AF9CB50B7A1D69B0E0F8 /* Support Files */,
