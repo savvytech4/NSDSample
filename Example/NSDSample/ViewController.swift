@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import NSDSample
 import NSxcframework
 class ViewController: UIViewController {
 

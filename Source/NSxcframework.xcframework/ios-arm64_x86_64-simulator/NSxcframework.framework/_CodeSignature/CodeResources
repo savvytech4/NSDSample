@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/NSxcframework.h</key>
 		<data>
-		kMMZWG1RxPY+3Tq3PAWjKhwfHEI=
+		1HoGRslUJti6GTAn3F8h7hTjaNc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NSxcframework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8lZQgg048QVxfntKidz72yGtafk=
+		T/sMCoW5lRlWYepVzUTOY7afUXk=
 		</data>
 		<key>Modules/NSxcframework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NSxcframework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fK1bw7xxIlwl+SPs6MQjp/FGTc8=
+		9L+6XWnXC8IJGQbzHjESHY0iChw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GFms4ZEur02elKnSBgnFEQYWrh8vkaQWQQIWEgyQebY=
+			A19Bbp5sRziYKJ/uBfU27pVVqSVegOsJo1S+3rQGdHY=
 			</data>
 		</dict>
 		<key>Modules/NSxcframework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			csJq5TbkAOb9qzCwbv/SsCuDp1rgmkZJMYMgJQdk2gA=
+			lj0oJsvNE/3EamCILn6MoKucD8bim24Y/sv9ZdRedSc=
 			</data>
 		</dict>
 		<key>Modules/NSxcframework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K92z2EQ3ngTbMLfONsP0Hoa8TPLBWM4baoIclrwGdUs=
+			ZnN0H3Y+iLZYI36Cq8oYny8q6Dpanv3MmGr/whXaW1E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

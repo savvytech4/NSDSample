@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/NSxcframework.h</key>
 		<data>
-		kMMZWG1RxPY+3Tq3PAWjKhwfHEI=
+		1HoGRslUJti6GTAn3F8h7hTjaNc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NSxcframework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Md6arFXiLhDvha07wif3O1CcLWw=
+		ns9ySL1CXwRAyiZIFsWOkKAt4oQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GFms4ZEur02elKnSBgnFEQYWrh8vkaQWQQIWEgyQebY=
+			A19Bbp5sRziYKJ/uBfU27pVVqSVegOsJo1S+3rQGdHY=
 			</data>
 		</dict>
 		<key>Modules/NSxcframework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9tEOKEeqvi85AzdBcn07CREJUG9PX5jthf+vOPmreGI=
+			n6IQSPlIPUmOP6bM+fVEOTi2PjNHadidMMto4+oo99Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
