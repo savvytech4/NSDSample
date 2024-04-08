@@ -187,10 +187,18 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		ACBF3B71ADC5A416A7966E5F1AB4A93A /* NSDSample */ = {
+		6BDF085B2BC44043003E03C2 /* Locale */ = {
 			isa = PBXGroup;
 			children = (
 				6BDF08592BC3DC5B003E03C2 /* Localizations.bundle */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		ACBF3B71ADC5A416A7966E5F1AB4A93A /* NSDSample */ = {
+			isa = PBXGroup;
+			children = (
+				6BDF085B2BC44043003E03C2 /* Locale */,
 				6B9C57922BB6A462000C6755 /* Source */,
 				457FF84AD6204346221767185EB7BEA1 /* Pod */,
 				C5738DB974B3AF9CB50B7A1D69B0E0F8 /* Support Files */,
