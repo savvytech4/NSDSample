@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
   #s.source_files = 'Source/**/*'
   s.ios.vendored_frameworks = 'Source/NSxcframework.xcframework'
-  s.ios.resource = 'NSDSample/Localizations'
+  s.ios.resource = 'NSDSample/Localizations.bundle'
   s.swift_version = '5.0'
   
   # s.source_files = 'NSDSample/Classes/**/*'
