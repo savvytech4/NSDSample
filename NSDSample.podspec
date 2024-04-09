@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSDSample'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'sample for pod release of NSDSample.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # Multiple Frameworks
   s.ios.vendored_frameworks = 'Source/NSxcframework.xcframework' , 'Source/SampleFramework.xcframework'
 
-  s.ios.resources = 'Locale/Localizations.bundle'
+  s.ios.resources = 'Resources/Localizations.bundle'
   s.swift_version = '5.0'
   
   
