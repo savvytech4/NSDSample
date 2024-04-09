@@ -28,8 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/savvytech4/NSDSample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platforms = {
-      :ios => "12.0",
-      :watchos => "2.0"
+      :ios => "12.0"
   }
   # s.ios.deployment_target = '12.0'
   # Swift file
