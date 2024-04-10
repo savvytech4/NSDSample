@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSDSample'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Sample for singleton class demosntration.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   # single framework
   #s.ios.vendored_frameworks = 'Source/NSxcframework.xcframework'
   # Multiple Frameworks
-  s.ios.vendored_frameworks = 'Source/NSxcframework.xcframework' , 'Source/SampleFramework.xcframework'
+  s.ios.vendored_frameworks = 'Source/NSxcframeworkOne.xcframework' , 'Source/SampleFramework.xcframework'
 
   s.ios.resources = 'Resources/Localizations.bundle'
   s.swift_version = '5.0'

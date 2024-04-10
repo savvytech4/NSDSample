@@ -15,8 +15,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6BC885BB2BBFF83000F08855 /* NSxcframework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC885B62BBFF49800F08855 /* NSxcframework.xcframework */; };
-		6BC885BC2BBFF83000F08855 /* NSxcframework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC885B62BBFF49800F08855 /* NSxcframework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B42000C2BC568E10097C6C9 /* NSxcframeworkOne.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B42000B2BC568E10097C6C9 /* NSxcframeworkOne.xcframework */; };
+		6B42000D2BC568E10097C6C9 /* NSxcframeworkOne.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B42000B2BC568E10097C6C9 /* NSxcframeworkOne.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6BC885BD2BBFF83000F08855 /* Embed Frameworks */ = {
+		6B42000E2BC568E10097C6C9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6BC885BC2BBFF83000F08855 /* NSxcframework.xcframework in Embed Frameworks */,
+				6B42000D2BC568E10097C6C9 /* NSxcframeworkOne.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +56,7 @@
 		607FACE51AFB9204008FA782 /* NSDSample_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDSample_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6B42000B2BC568E10097C6C9 /* NSxcframeworkOne.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NSxcframeworkOne.xcframework; path = ../Source/NSxcframeworkOne.xcframework; sourceTree = "<group>"; };
 		6BC885B62BBFF49800F08855 /* NSxcframework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NSxcframework.xcframework; path = ../Source/NSxcframework.xcframework; sourceTree = "<group>"; };
 		9FE55279C5310180356C4538 /* Pods-NSDSample_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDSample_Example.debug.xcconfig"; path = "Target Support Files/Pods-NSDSample_Example/Pods-NSDSample_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A060841E961E343074D8F668 /* Pods-NSDSample_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDSample_Tests.release.xcconfig"; path = "Target Support Files/Pods-NSDSample_Tests/Pods-NSDSample_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC885BB2BBFF83000F08855 /* NSxcframework.xcframework in Frameworks */,
 				0AEFA1F1437162FD1D3BA2EB /* Pods_NSDSample_Example.framework in Frameworks */,
+				6B42000C2BC568E10097C6C9 /* NSxcframeworkOne.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +172,7 @@
 		A578E40D5B8AD1ABD6131D0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B42000B2BC568E10097C6C9 /* NSxcframeworkOne.xcframework */,
 				6BC885B62BBFF49800F08855 /* NSxcframework.xcframework */,
 				C9A3D367F420866A1408F475 /* Pods_NSDSample_Example.framework */,
 				ADC59AD3E841E2AD7B4105C8 /* Pods_NSDSample_Tests.framework */,
@@ -190,7 +192,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				B9A6EB4B5E632D4710455E8D /* [CP] Embed Pods Frameworks */,
-				6BC885BD2BBFF83000F08855 /* Embed Frameworks */,
+				6B42000E2BC568E10097C6C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

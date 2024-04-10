@@ -11,10 +11,9 @@
 		2FF56CE375F93DB4CC2FFCAC4DF426F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4E85AC42AC882A32908231DC436BA98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5B2A0F4DC5B65218E50987DE47B9C2F1 /* NSDSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197621B5666589621DE1F58354723145 /* NSDSample-dummy.m */; };
-		6BC885B82BBFF6A900F08855 /* NSxcframework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC885AD2BBFE83700F08855 /* NSxcframework.xcframework */; };
-		6BC885B92BBFF6A900F08855 /* NSxcframework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC885AD2BBFE83700F08855 /* NSxcframework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BDF085A2BC3DC5B003E03C2 /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF08592BC3DC5B003E03C2 /* Localizations.bundle */; };
 		6BDF08732BC45F08003E03C2 /* SampleFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF08722BC45F08003E03C2 /* SampleFramework.xcframework */; };
+		6BEAC8492BC567F50048FF92 /* NSxcframeworkOne.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEAC8482BC567F50048FF92 /* NSxcframeworkOne.xcframework */; };
 		9F24587DAB5822E6499EA05E39259BBF /* Pods-NSDSample_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0046E3C7F95C1C11238967BE174DB8 /* Pods-NSDSample_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A16B8415456A3A8CA6664CAB7D2B1ABB /* Pods-NSDSample_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25010360FADCC17360D3A5B6D81DC238 /* Pods-NSDSample_Tests-dummy.m */; };
 		A69E18A5D6FB92B2729127F428E8DAD8 /* Pods-NSDSample_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFB9689CA61C2F7CA3CE436145506E8 /* Pods-NSDSample_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6BC885B92BBFF6A900F08855 /* NSxcframework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,9 +65,9 @@
 		5AE8817CF966CD14D0D3B292F8EF24DA /* Pods-NSDSample_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSDSample_Tests.modulemap"; sourceTree = "<group>"; };
 		5EFB1B9342C54F90903F268360B074FD /* Pods-NSDSample_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSDSample_Example.modulemap"; sourceTree = "<group>"; };
 		6234E926F5B5D80AFCB6E80CB5FAF245 /* NSDSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSDSample.debug.xcconfig; sourceTree = "<group>"; };
-		6BC885AD2BBFE83700F08855 /* NSxcframework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NSxcframework.xcframework; sourceTree = "<group>"; };
 		6BDF08592BC3DC5B003E03C2 /* Localizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Localizations.bundle; sourceTree = "<group>"; };
 		6BDF08722BC45F08003E03C2 /* SampleFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SampleFramework.xcframework; sourceTree = "<group>"; };
+		6BEAC8482BC567F50048FF92 /* NSxcframeworkOne.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NSxcframeworkOne.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73984CB5C60E746AC37EFB510873BF74 /* NSDSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDSample-umbrella.h"; sourceTree = "<group>"; };
 		8BDC3F71A5D53A84F5ED947B4037BE68 /* Pods-NSDSample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSDSample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -113,8 +111,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BDF08732BC45F08003E03C2 /* SampleFramework.xcframework in Frameworks */,
-				6BC885B82BBFF6A900F08855 /* NSxcframework.xcframework in Frameworks */,
 				F7BA3F091A39AD9F5FB6C4E21934A345 /* Foundation.framework in Frameworks */,
+				6BEAC8492BC567F50048FF92 /* NSxcframeworkOne.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +191,8 @@
 		6B9C57922BB6A462000C6755 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				6BEAC8482BC567F50048FF92 /* NSxcframeworkOne.xcframework */,
 				6BDF08722BC45F08003E03C2 /* SampleFramework.xcframework */,
-				6BC885AD2BBFE83700F08855 /* NSxcframework.xcframework */,
 			);
 			path = Source;
 			sourceTree = "<group>";
